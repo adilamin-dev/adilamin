@@ -1,0 +1,292 @@
+body{
+    background-color: #333333;
+    .portfolio{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 2.8em;
+        margin: 0px auto;
+        .nav{
+            ul{
+                font-size: 1.1rem;
+                list-style: none;
+                position: relative;
+                margin-left: 2.6em;
+                li{
+                    position: absolute;
+                    // height: 200px;
+                    left: -45px;
+                    // background-color: rgb(237, 222, 255);
+                    writing-mode:vertical-lr;
+                    padding: 0px 10px;
+                    margin: 0px 0px 0px 0px;
+                    inline-size: fit-content;
+                    transform: rotate(-180deg);
+                    box-shadow: 0px -3px 4px 0px rgba(0, 0, 0, 0.164);
+                    text-align: center;
+                    height: 180px;
+                    border-radius: 0px 12px 12px 0px;
+                    a{
+                        text-decoration: none;
+                        color: #333333;
+                        padding: 34px 10px;
+                        text-align: center;
+                    }
+                }
+                li:nth-child(1){
+                    margin-top: 180px;
+                    background-color: rgb(242, 222, 255);
+                    z-index: 6;
+                }
+                li:nth-child(2){
+                    top: 358px;
+                    background-color: rgb(222, 255, 224);
+                    z-index: 5;
+                }
+                li:nth-child(3){
+                    top: 538px;
+                    background-color: rgb(222, 242, 255);
+                    z-index: 4;
+                }
+                li:nth-child(4){
+                    top: 718px;
+                    background-color: rgb(255, 233, 222);
+                    z-index: 3;
+                }
+            }
+        }
+        .page{
+
+            z-index: 7;
+            // text-align: justify;
+            background-color: rgb(255, 249, 233);
+            // background-color: rgb(255, 255, 255);
+            background-position-x: 0%;
+            background-position-y: 0%;
+            background-image: none;
+            background-size: auto;
+            background-position-x: 0%;
+            background-position-y: 0%;
+            background-image: none;
+            background-size: auto;
+            background-image: linear-gradient(90deg,#9ed4f0,2px,transparent,2px,transparent),linear-gradient(0,#d9eaf3,1px,transparent,2px,transparent);
+            background-position: 5rem 0,0 5px;
+            background-size: 100% 1.7rem;
+            margin: 0px;
+            padding: 70px 0px 40px 50px;
+            height: 1200px;
+            width: 1000px;
+            // min-width: 100%;
+            box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.11);
+            position: relative;
+            margin-bottom: 2rem;
+            border-style: none;
+            span.paper-clip:after {
+                width: 20px;
+                height: 40px;
+                content: " ";
+                background: rgba(255, 255, 255, 0);
+                display: block;
+                position: absolute;
+                left: -3px;
+                top: 10px;
+                border-radius: 10px;
+                border: 3px solid #ff9170;
+                border-bottom: 0;
+                border-bottom-right-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+            span.paper-clip {
+                background: rgba(255, 247, 222, 0);
+                height: 74px;
+                width: 28px;
+                border-radius: 14px;
+                border: 3px solid #ff9170;
+                display: inline-block;
+                position: absolute;
+                top: -32px;
+                left: 50px;
+                transform: rotate(-30deg);
+            }
+            .profile-wraper{
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: flex-start;
+                .profile-pic-bg{
+                    position: relative;
+                    height: 270px;
+                    width: 270px;
+                    border: 10px solid #ffffff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.151);
+                    transform: scale(1) rotate(2deg) translate(0px, 0px) skew(0deg, 0deg);
+                    .profile-pic{
+                        position: absolute;
+                        height: 270px;
+                        width: 270px;
+                        overflow: hidden;
+                        /* border-radius: 50%; */
+                        border: 10px solid #ffffff;
+                        box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.226);
+                        margin: 1.6rem;
+                        /* float: left; */
+                        -moz-transform: scale(1) rotate(-2deg) translate(0px, 0px) skew(0deg, 0deg);
+                        -webkit-transform: scale(1) rotate(-2deg) translate(0px, 0px) skew(0deg, 0deg);
+                        -o-transform: scale(1) rotate(-2deg) translate(0px, 0px) skew(0deg, 0deg);
+                        -ms-transform: scale(1) rotate(-2deg) translate(0px, 0px) skew(0deg, 0deg);
+                        transform: scale(1) rotate(-4deg) translate(0px, 0px) skew(0deg, 0deg);
+                    }
+                    
+                    .profile-pic img{
+                        width: 270px;
+                    }
+                }
+                .about-me{
+                    max-width: 60%;
+                    color: #333333;
+                    h1{
+                        font-size: 2.8rem;
+                        font-weight: 500;
+                        color: #333333;
+                    }
+
+                    h3{
+                        padding-bottom: 1em;
+                        font-weight: 500;
+                    }
+
+                    .my-about{
+                        margin-bottom: 12px;
+                    }
+                    
+                    h2{
+                        font-weight: 500;
+                        font-size: 1.4rem;
+                        color: #333333;
+                    }
+                    
+                    .social-wraper{
+                        text-align: unset;
+                        padding-top: 1rem;
+                    }
+                    
+                    .social-wraper p{
+                        display: inline-block;
+                        margin: 0.1rem 0.4rem;
+                        font-size: 1.1rem;
+                        a{
+                            color: #333333;
+                            text-decoration: none;
+                            
+                            strong{
+                                u{
+                                    text-decoration: none;
+                                    background-repeat: repeat-x;
+                                    background-image: url("../img/adil.svg");
+                                    background-position: 0 1.06em;
+                                    background-size: 28px 9px;
+                                    color: #333333;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                
+                
+            }
+            
+            .profile-wraper::after {
+                display: block;
+                content: "";
+                clear: both;
+            }
+            
+            .skills{
+                margin: 1rem;
+                padding: 2em 2em;
+                color: #333333;
+                font-size: 1.1rem;
+                h2{
+                    font-weight: 500;
+                    font-size: 1.4rem;
+                    color: #333333;
+                }
+                .skills-wraper{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    align-items: center;
+                }
+                
+                .skills-wraper .skill-box{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 26px;
+                    width: 26px;
+                    /* border-radius: 50%;
+                    border: 4px solid rgb(120, 75, 160); */
+                    // border-bottom: 2px solid #333333;
+                    transition: all 0.2s ease-in-out;
+                    
+                    margin: 1rem;
+                }
+                
+                .skills-wraper .skill-box:hover{
+                    transform: scale(1.2);
+                }
+                
+                .skills-wraper .skill-box p{
+                    font-size: 2.4rem;
+                    transition: all 0.3s ease-in-out;
+                }
+                
+                
+                .skills-wraper .s2 img{
+                    width: 38.4px;
+                }
+
+                .skSection{
+                    margin-top: 2rem;
+                }
+
+                .skillList{
+                    margin: 1rem;
+                    padding: 0em 2em;
+                    color: #333333;
+                    li{
+                        strong{
+                            font-weight: 500;
+                        }
+                        span.cssBattle{
+                            display: inline;
+                            a{
+                                text-decoration: none;
+                                background-repeat: repeat-x;
+                                background-image: url("../img/adil.svg");
+                                background-position: 0px 0.9em;
+                                background-size: 28px 9px;
+                                color: #333333;
+                                img{
+                                    height: 12px;
+                                }
+                            }
+                            
+                        }
+                        span.frontendMaster{
+                            img{
+                                height: 18px;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
