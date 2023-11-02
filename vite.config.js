@@ -7,6 +7,6 @@ import { ssr } from 'vite-plugin-ssr/plugin'
 export default defineConfig({
   base: "/adilamin.com/",
   plugins: [react(), ssr({
-    baseAssets: 'https://adilamin.com'
+    baseAssets: 'https://adilamin.com/'
   })],
 })
