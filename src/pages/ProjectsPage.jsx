@@ -1,14 +1,14 @@
 import NaveMenu from "../modules/NaveMenu";
-import PaperForAboutMe from "../modules/PaperForAboutMe";
+import PaperForProjects from './../modules/PaperForProjects';
 
-const HomePage = () => {
+const ProjectsPage = () => {
     return (
         <div>
             <div className="backpart">
                 <div className="frontpart">
                     <div className="container">
                         <div className="portfolio">
-                            <PaperForAboutMe/>
+                            <PaperForProjects/>
                             <NaveMenu/>
                             
                         </div>
@@ -19,4 +19,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default ProjectsPage;

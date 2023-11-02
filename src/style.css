@@ -66,7 +66,7 @@ body .portfolio .nav ul li {
   box-shadow: 0px -3px 4px 0px rgba(0, 0, 0, 0.164);
   text-align: center;
   height: 180px;
-  border-radius: 0px 12px 12px 0px;
+  border-radius: 12px 0px 0px 12px;
 }
 body .portfolio .nav ul li a {
   text-decoration: none;

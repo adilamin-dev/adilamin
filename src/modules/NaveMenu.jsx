@@ -1,12 +1,14 @@
+import { NavLink } from "react-router-dom";
+
 const NaveMenu = () => {
     return (
         <div>
             <nav className="nav">
             <ul>
-              <li><a href="dist/resume/CV_of_Adil_Amin-(Front-End_Web-Developer).pdf" target="_blank"><strong>My Resume</strong></a></li>
-              <li><a href="index.html">About Me</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><NavLink href="/public/CV_of_Adil_Amin-(Front-End_Web-Developer).pdf" target="_blank"><strong>My Resume</strong></NavLink></li>
+              <li><NavLink to="/">About Me</NavLink></li>
+              <li><NavLink to="/projects">Projects</NavLink></li>
+              <li><NavLink to="/contact">Contact</NavLink></li>
             </ul>
           </nav>
         </div>

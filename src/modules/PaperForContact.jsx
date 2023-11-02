@@ -1,11 +1,11 @@
 
-const Paper = () => {
+const PaperForContact = () => {
     return (
         <div>
             <div className="page">
                 <span className="paper-clip"></span>
 
-             
+                <h1>Paper for Contact!</h1>
 
                 
             </div>
@@ -13,4 +13,4 @@ const Paper = () => {
     );
 };
 
-export default Paper;
+export default PaperForContact;
