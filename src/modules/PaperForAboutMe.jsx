@@ -1,9 +1,11 @@
+import Profile from "./Profile";
+
 const PaperForAboutMe = () => {
     return (
         <div>
             <div className="page">
-                <span className="paper-clip"></span>
-
+                
+                <Profile/>
                 <h1>About me Page!</h1>
 
                 
