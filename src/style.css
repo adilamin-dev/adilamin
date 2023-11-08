@@ -219,11 +219,9 @@ body .portfolio .page .profile-wraper .about-me .social-wraper {
 }
 body .portfolio .page .profile-wraper .about-me .social-wraper p {
   display: inline-block;
-  margin: 0.4rem 0.4rem;
+  margin: 0.4rem 1.8rem !important;
   font-size: 1.1rem;
   position: relative;
-  margin-left: 28px;
-  margin-right: 28px;
 }
 body .portfolio .page .profile-wraper .about-me .social-wraper p a {
   color: #333333;
@@ -271,6 +269,180 @@ body .portfolio .page .skills p {
   padding-left: 0.6em;
 }
 
+@media (max-width: 1111px) {
+  .container {
+    padding: 0px;
+  }
+  body {
+    position: relative;
+  }
+  body .portfolio {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+  }
+  body .portfolio .nav {
+    z-index: 10;
+    height: 44px;
+    width: auto;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+  }
+  body .portfolio .nav ul {
+    font-size: 1.1rem;
+    list-style: none;
+    position: relative;
+    margin-left: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+  }
+  body .portfolio .nav ul li {
+    text-align: center;
+    display: inline-block;
+    position: unset;
+    width: 200px;
+    left: 0px;
+    writing-mode: horizontal-tb;
+    padding: 0px 0px;
+    margin: 0rem;
+    inline-size: auto;
+    transform: rotate(0deg);
+    box-shadow: 0px -3px 4px 0px rgba(0, 0, 0, 0.164);
+    text-align: center;
+    height: 44px;
+    border-radius: 12px 12px 0px 0px;
+  }
+  body .portfolio .nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #333333;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  body .portfolio .nav ul li:nth-child(1) {
+    margin-top: 0px;
+    bottom: 0px;
+    background-color: rgb(242, 222, 255);
+    z-index: 8;
+  }
+  body .portfolio .nav ul li:nth-child(2) {
+    margin-top: 0px;
+    bottom: 0px;
+    background-color: rgb(222, 255, 224);
+    z-index: 8;
+  }
+  body .portfolio .nav ul li:nth-child(3) {
+    margin-top: 0px;
+    bottom: 0px;
+    background-color: rgb(222, 242, 255);
+    z-index: 8;
+  }
+  body .portfolio .nav ul li:nth-child(4) {
+    margin-top: 0px;
+    bottom: 0px;
+    background-color: rgb(255, 233, 222);
+    z-index: 8;
+  }
+  body .portfolio .page {
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.11);
+    position: relative;
+    margin-bottom: 0px;
+    padding-bottom: 5rem;
+    border-style: none;
+  }
+  body .portfolio .page span.paper-clip:after {
+    display: none;
+  }
+  body .portfolio .page span.paper-clip {
+    display: none;
+  }
+  body .portfolio .page .profile-wraper {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  body .portfolio .page .profile-wraper .profile-pic-bg {
+    position: relative;
+    height: 270px;
+    width: 270px;
+    border: 10px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.151);
+    transform: scale(1) rotate(2deg) translate(0px, 0px) skew(0deg, 0deg);
+  }
+  body .portfolio .page .profile-wraper .profile-pic-bg .profile-pic {
+    position: absolute;
+    height: 270px;
+    width: 270px;
+    overflow: hidden;
+    /* border-radius: 50%; */
+    border: 10px solid #ffffff;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.226);
+    margin: 1.6rem;
+    /* float: left; */
+    transform: scale(1) rotate(-4deg) translate(0px, 0px) skew(0deg, 0deg);
+  }
+  body .portfolio .page .profile-wraper .profile-pic-bg .profile-pic img {
+    width: 270px;
+  }
+  body .portfolio .page .profile-wraper .about-me {
+    margin-top: 2.2em;
+    max-width: 100%;
+    color: #333333;
+  }
+  body .portfolio .page .profile-wraper .about-me h1 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: #333333;
+  }
+  body .portfolio .page .profile-wraper .about-me h3 {
+    padding-bottom: 1em;
+    font-weight: 500;
+  }
+  body .portfolio .page .profile-wraper .about-me .my-about {
+    margin-bottom: 12px;
+  }
+  body .portfolio .page .profile-wraper .about-me h2 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #333333;
+  }
+  body .portfolio .page .profile-wraper .about-me .social-wraper {
+    text-align: unset;
+    padding-top: 1rem;
+  }
+  body .portfolio .page .profile-wraper .about-me .social-wraper p {
+    display: inline-block;
+    font-size: 1.1rem;
+  }
+  body .portfolio .page .profile-wraper .about-me .social-wraper p a {
+    color: #333333;
+    text-decoration: none;
+  }
+  body .portfolio .page .profile-wraper .about-me .social-wraper p a strong u {
+    text-decoration: none;
+    background-repeat: repeat-x;
+    background-image: url("../img/adil.svg");
+    background-position: 0 1.06em;
+    background-size: 28px 9px;
+    color: #333333;
+  }
+}
 @media (max-width: 946px) {
   .container {
     padding: 0px;
@@ -376,7 +548,7 @@ body .portfolio .page .skills p {
     width: 100vw;
     box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.11);
     position: relative;
-    margin-bottom: 2rem;
+    margin-bottom: 0px;
     border-style: none;
   }
   body .portfolio .page span.paper-clip:after {
@@ -446,7 +618,6 @@ body .portfolio .page .skills p {
   }
   body .portfolio .page .profile-wraper .about-me .social-wraper p {
     display: inline-block;
-    margin: 0.1rem 0.4rem;
     font-size: 1.1rem;
   }
   body .portfolio .page .profile-wraper .about-me .social-wraper p a {
