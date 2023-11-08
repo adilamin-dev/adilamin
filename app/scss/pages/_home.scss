@@ -74,7 +74,7 @@ body{
             background-size: 100% 1.7rem;
             margin: 0px;
             padding: 50px 0px 40px 20px;
-            height: 1200px;
+            height: auto;
             width: 1000px;
             // min-width: 100%;
             box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.11);
@@ -162,13 +162,14 @@ body{
                     }
 
                     .my-about{
-                        margin-bottom: 12px;
+                        margin-bottom: 16px;
                     }
                     
                     h2{
                         font-weight: 500;
                         font-size: 1.4rem;
                         color: #333333;
+                        margin-bottom: 0.4rem;
                     }
                     
                     .social-wraper{
@@ -178,11 +179,16 @@ body{
                     
                     .social-wraper p{
                         display: inline-block;
-                        margin: 0.1rem 0.4rem;
+                        margin: 0.4rem 0.4rem;
                         font-size: 1.1rem;
+                        position: relative;
+                        margin-left: 28px;
+                        margin-right: 28px;
+
                         a{
                             color: #333333;
                             text-decoration: none;
+                            padding-top: -20px;
                             
                             strong{
                                 u{
@@ -194,6 +200,11 @@ body{
                                     color: #333333;
                                 }
                             }
+                        }
+                        img{
+                            position: absolute;
+                            height: 22px;
+                            left: -28px;
                         }
                     }
                 }
@@ -207,86 +218,56 @@ body{
                 content: "";
                 clear: both;
             }
-            
-            .skills{
-                margin: 1rem;
-                padding: 2em 2em;
-                color: #333333;
-                font-size: 1.1rem;
-                h2{
-                    font-weight: 500;
-                    font-size: 1.4rem;
-                    color: #333333;
-                }
-                .skills-wraper{
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-evenly;
-                    align-items: center;
-                }
-                
-                .skills-wraper .skill-box{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    height: 26px;
-                    width: 26px;
-                    /* border-radius: 50%;
-                    border: 4px solid rgb(120, 75, 160); */
-                    // border-bottom: 2px solid #333333;
-                    transition: all 0.2s ease-in-out;
-                    
-                    margin: 1rem;
-                }
-                
-                .skills-wraper .skill-box:hover{
-                    transform: scale(1.2);
-                }
-                
-                .skills-wraper .skill-box p{
-                    font-size: 2.4rem;
-                    transition: all 0.3s ease-in-out;
-                }
-                
-                
-                .skills-wraper .s2 img{
-                    width: 38.4px;
-                }
 
-                .skSection{
-                    margin-top: 2rem;
-                }
+            .pdofileDetails{
+                margin-top: 3rem;
+                margin-left: 4.8rem;
+                padding-right: 2em;
 
-                .skillList{
-                    margin: 1rem;
-                    padding: 0em 2em;
-                    color: #333333;
-                    li{
-                        strong{
-                            font-weight: 500;
-                        }
-                        span.cssBattle{
-                            display: inline;
-                            a{
-                                text-decoration: none;
-                                background-repeat: repeat-x;
-                                background-image: url("../img/adil.svg");
-                                background-position: 0px 0.9em;
-                                background-size: 28px 9px;
-                                color: #333333;
-                                img{
-                                    height: 12px;
-                                }
-                            }
-                            
-                        }
-                        span.frontendMaster{
-                            img{
-                                height: 18px;
-                            }
-                        }
+                .LanguagesTools{
+                    p{
+                        padding-left: 0.6em;
                     }
                 }
+
+                .hobbeis{
+                    margin-top: 2rem;
+                    p{
+                        padding-left: 0.6em;
+                    }
+                }
+            }
+            
+            .skills{
+                margin-top: 2rem;
+                color: #333333;
+                font-size: 1.1rem;
+
+                p{
+                    padding-left: 0.6em;
+                }
+
+                // span.cssBattle{
+                //     display: inline;
+                //     a{
+                //         text-decoration: none;
+                //         background-repeat: repeat-x;
+                //         background-image: url("../img/adil.svg");
+                //         background-position: 0px 0.9em;
+                //         background-size: 28px 9px;
+                //         color: #333333;
+                //         img{
+                //             height: 12px;
+                //         }
+                //     }
+                    
+                // }
+                // span.frontendMaster{
+                //     img{
+                //         height: 18px;
+                //     }
+                // }
+                
                 
             }
         }

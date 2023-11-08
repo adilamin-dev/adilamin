@@ -3,9 +3,9 @@ import HomePage from './pages/HomePage'
 import ProjectsPage from './pages/ProjectsPage'
 import ContactPage from './pages/ContactPage';
 
-
 function App() {
 
+  
   return (
     <>
       <BrowserRouter>

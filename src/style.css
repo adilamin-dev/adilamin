@@ -11,6 +11,18 @@ html p {
   color: #252525;
 }
 
+html h2 {
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #333333;
+  margin-bottom: 0.4rem;
+}
+
+html b {
+  font-weight: 500;
+  color: #333333;
+}
+
 body {
   font-family: "Rubik", sans-serif;
   line-height: 1.4;
@@ -110,7 +122,7 @@ body .portfolio .page {
   background-size: 100% 1.7rem;
   margin: 0px;
   padding: 50px 0px 40px 20px;
-  height: 1200px;
+  height: auto;
   width: 1000px;
   box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.11);
   position: relative;
@@ -193,12 +205,13 @@ body .portfolio .page .profile-wraper .about-me h3 {
   font-weight: 500;
 }
 body .portfolio .page .profile-wraper .about-me .my-about {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 body .portfolio .page .profile-wraper .about-me h2 {
   font-weight: 500;
   font-size: 1.4rem;
   color: #333333;
+  margin-bottom: 0.4rem;
 }
 body .portfolio .page .profile-wraper .about-me .social-wraper {
   text-align: unset;
@@ -206,12 +219,16 @@ body .portfolio .page .profile-wraper .about-me .social-wraper {
 }
 body .portfolio .page .profile-wraper .about-me .social-wraper p {
   display: inline-block;
-  margin: 0.1rem 0.4rem;
+  margin: 0.4rem 0.4rem;
   font-size: 1.1rem;
+  position: relative;
+  margin-left: 28px;
+  margin-right: 28px;
 }
 body .portfolio .page .profile-wraper .about-me .social-wraper p a {
   color: #333333;
   text-decoration: none;
+  padding-top: -20px;
 }
 body .portfolio .page .profile-wraper .about-me .social-wraper p a strong u {
   text-decoration: none;
@@ -221,76 +238,37 @@ body .portfolio .page .profile-wraper .about-me .social-wraper p a strong u {
   background-size: 28px 9px;
   color: #333333;
 }
+body .portfolio .page .profile-wraper .about-me .social-wraper p img {
+  position: absolute;
+  height: 22px;
+  left: -28px;
+}
 body .portfolio .page .profile-wraper::after {
   display: block;
   content: "";
   clear: both;
 }
+body .portfolio .page .pdofileDetails {
+  margin-top: 3rem;
+  margin-left: 4.8rem;
+  padding-right: 2em;
+}
+body .portfolio .page .pdofileDetails .LanguagesTools p {
+  padding-left: 0.6em;
+}
+body .portfolio .page .pdofileDetails .hobbeis {
+  margin-top: 2rem;
+}
+body .portfolio .page .pdofileDetails .hobbeis p {
+  padding-left: 0.6em;
+}
 body .portfolio .page .skills {
-  margin: 1rem;
-  padding: 2em 2em;
+  margin-top: 2rem;
   color: #333333;
   font-size: 1.1rem;
 }
-body .portfolio .page .skills h2 {
-  font-weight: 500;
-  font-size: 1.4rem;
-  color: #333333;
-}
-body .portfolio .page .skills .skills-wraper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
-body .portfolio .page .skills .skills-wraper .skill-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 26px;
-  width: 26px;
-  /* border-radius: 50%;
-  border: 4px solid rgb(120, 75, 160); */
-  transition: all 0.2s ease-in-out;
-  margin: 1rem;
-}
-body .portfolio .page .skills .skills-wraper .skill-box:hover {
-  transform: scale(1.2);
-}
-body .portfolio .page .skills .skills-wraper .skill-box p {
-  font-size: 2.4rem;
-  transition: all 0.3s ease-in-out;
-}
-body .portfolio .page .skills .skills-wraper .s2 img {
-  width: 38.4px;
-}
-body .portfolio .page .skills .skSection {
-  margin-top: 2rem;
-}
-body .portfolio .page .skills .skillList {
-  margin: 1rem;
-  padding: 0em 2em;
-  color: #333333;
-}
-body .portfolio .page .skills .skillList li strong {
-  font-weight: 500;
-}
-body .portfolio .page .skills .skillList li span.cssBattle {
-  display: inline;
-}
-body .portfolio .page .skills .skillList li span.cssBattle a {
-  text-decoration: none;
-  background-repeat: repeat-x;
-  background-image: url("../img/adil.svg");
-  background-position: 0px 0.9em;
-  background-size: 28px 9px;
-  color: #333333;
-}
-body .portfolio .page .skills .skillList li span.cssBattle a img {
-  height: 12px;
-}
-body .portfolio .page .skills .skillList li span.frontendMaster img {
-  height: 18px;
+body .portfolio .page .skills p {
+  padding-left: 0.6em;
 }
 
 @media (max-width: 946px) {

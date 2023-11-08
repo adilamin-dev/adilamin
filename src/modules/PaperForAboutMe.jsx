@@ -1,3 +1,4 @@
+import ProfileDetails from "./ProfileDetails";
 import Profile from "./Profile";
 
 const PaperForAboutMe = () => {
@@ -6,8 +7,9 @@ const PaperForAboutMe = () => {
             <div className="page">
                 
                 <Profile/>
-                <h1>About me Page!</h1>
 
+
+                <ProfileDetails/>
                 
             </div>
         </div>
