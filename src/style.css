@@ -246,18 +246,18 @@ body .portfolio .page .profile-wraper::after {
   content: "";
   clear: both;
 }
-body .portfolio .page .pdofileDetails {
+body .portfolio .page .profileDetails {
   margin-top: 3rem;
   margin-left: 4.8rem;
   padding-right: 2em;
 }
-body .portfolio .page .pdofileDetails .LanguagesTools p {
+body .portfolio .page .profileDetails .LanguagesTools p {
   padding-left: 0.6em;
 }
-body .portfolio .page .pdofileDetails .hobbeis {
+body .portfolio .page .profileDetails .hobbeis {
   margin-top: 2rem;
 }
-body .portfolio .page .pdofileDetails .hobbeis p {
+body .portfolio .page .profileDetails .hobbeis p {
   padding-left: 0.6em;
 }
 body .portfolio .page .skills {
@@ -267,6 +267,60 @@ body .portfolio .page .skills {
 }
 body .portfolio .page .skills p {
   padding-left: 0.6em;
+}
+body .portfolio .page .projects {
+  margin-top: 3rem;
+  margin-left: 4.8rem;
+  padding-right: 2em;
+}
+body .portfolio .page .projects .projectItem {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+body .portfolio .page .projects .projectItem .projectImage {
+  display: block;
+  max-width: 300px;
+  height: 200px;
+}
+body .portfolio .page .projects .projectItem .projectImage img {
+  max-width: 300px;
+  height: 200px;
+}
+body .portfolio .page .projects .projectItem .projectContents {
+  flex: 1;
+  padding-left: 1.4rem;
+  margin-top: 1rem;
+}
+body .portfolio .page .projects .projectItem .projectContents .PCTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body .portfolio .page .projects .projectItem .projectContents .PCTitle h2 {
+  display: inline;
+  text-decoration: none;
+  background-repeat: repeat-x;
+  background-image: url("/images/underLine.svg");
+  background-position: 0 1em;
+  background-size: 28px 9px;
+  color: #333333;
+}
+body .portfolio .page .projects .projectItem .projectContents .PCTitle .PTechnologies {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 6.4px;
+}
+body .portfolio .page .projects .projectItem .projectContents .PCTitle .PTechnologies img {
+  height: 20px;
+  margin-left: 0.4rem;
+}
+body .portfolio .page .projects .projectItem .projectContents .PCTitle .PTechnologies img:first-child {
+  margin-left: 0rem;
 }
 
 @media (max-width: 1111px) {
@@ -360,6 +414,8 @@ body .portfolio .page .skills p {
     margin-bottom: 0px;
     padding-bottom: 5rem;
     border-style: none;
+    width: 100vw;
+    background-image: linear-gradient(90deg, rgba(158, 213, 240, 0), 2px, transparent, 2px, transparent), linear-gradient(0, #d9eaf3, 1px, transparent, 2px, transparent);
   }
   body .portfolio .page span.paper-clip:after {
     display: none;
@@ -404,6 +460,8 @@ body .portfolio .page .skills p {
     margin-top: 2.2em;
     max-width: 100%;
     color: #333333;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
   }
   body .portfolio .page .profile-wraper .about-me h1 {
     font-size: 2.8rem;
@@ -441,6 +499,21 @@ body .portfolio .page .skills p {
     background-position: 0 1.06em;
     background-size: 28px 9px;
     color: #333333;
+  }
+  body .portfolio .page .profileDetails {
+    margin-top: 3rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    padding-right: 2em;
+  }
+  body .portfolio .page .profileDetails .LanguagesTools p {
+    padding-left: 0.6em;
+  }
+  body .portfolio .page .profileDetails .hobbeis {
+    margin-top: 2rem;
+  }
+  body .portfolio .page .profileDetails .hobbeis p {
+    padding-left: 0.6em;
   }
 }
 @media (max-width: 946px) {
@@ -533,17 +606,15 @@ body .portfolio .page .skills p {
     background-color: rgb(255, 249, 233);
     background-position-x: 0%;
     background-position-y: 0%;
-    background-image: none;
     background-size: auto;
     background-position-x: 0%;
     background-position-y: 0%;
-    background-image: none;
-    background-size: auto;
     background-image: linear-gradient(90deg, rgba(158, 213, 240, 0), 2px, transparent, 2px, transparent), linear-gradient(0, #d9eaf3, 1px, transparent, 2px, transparent);
+    background-size: auto;
     background-position: 5rem 0, 0 5px;
     background-size: 100% 1.7rem;
     margin: 0px;
-    padding: 3em 0em 1em 1em;
+    padding: 3em 0em 5rem 1em;
     height: auto;
     width: 100vw;
     box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.11);
@@ -631,5 +702,11 @@ body .portfolio .page .skills p {
     background-position: 0 1.06em;
     background-size: 28px 9px;
     color: #333333;
+  }
+}
+@media (max-width: 555px) {
+  body .portfolio .page .profileDetails {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,6 @@
 const ProfileDetails = () => {
     return (
-        <div className="pdofileDetails">
+        <div className="profileDetails">
             
             <div className="LanguagesTools">
                 <h2>Language & tools:</h2>
